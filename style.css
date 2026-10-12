@@ -1,0 +1,130 @@
+
+/* Basic styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    background-color: #f4f6fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #374351;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 0;
+}
+
+/* Navigation */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    scroll-margin-top: 15px;
+}
+
+/* Section headings */
+h2 {
+    color: #243b55;
+    border-bottom: 2px solid #ffd166;
+    padding-bottom: 8px;
+}
+
+/* Education and project cards */
+.card {
+    background-color: #f4f6fa;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #243b55;
+    border-radius: 6px;
+}
+
+.card h3 {
+    color: #243b55;
+    margin-top: 0;
+}
+
+/* Skills and certifications */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    transition: color 0.3s;
+}
+
+section a {
+    color: #1769aa;
+}
+
+section a:hover {
+    color: #243b55;
+}
+
+/* Footer */
+footer {
+    background-color: #243b55;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+
+    section {
+        margin: 15px 10px;
+        padding: 18px;
+    }
+}
